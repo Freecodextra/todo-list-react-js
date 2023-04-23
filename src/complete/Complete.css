@@ -1,0 +1,22 @@
+.complete {
+    margin: 10px 0;
+    color: #94ADCF;
+}
+.complete .list {
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.done-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 8px;
+}

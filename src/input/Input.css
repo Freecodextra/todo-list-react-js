@@ -1,0 +1,32 @@
+.input-area {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color);
+    color: #94ADCF;
+    box-shadow: 10px 10px 10px 0 hsla(0, 0%, 0%, 0.13);
+}
+.input-area .input input {
+    width: 320px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #94ADCF;
+    padding: 5px;
+}
+input::placeholder {
+    color: #94ADCF;
+}
+.input-area span {
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.add-btn {
+    cursor: pointer;
+}

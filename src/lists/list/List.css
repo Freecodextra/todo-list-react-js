@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 8px;
+    cursor: move;
+}
+label {
+    color: #94ADCF;
+}
+input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 18px;
+  accent-color: #94ADCF;
+  color: transparent;
+}

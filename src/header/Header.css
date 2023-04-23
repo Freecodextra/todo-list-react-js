@@ -1,0 +1,17 @@
+.header {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .text {
+    color: #94ADCF;
+}
+
+.header .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #94ADCF;
+}
