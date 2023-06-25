@@ -1,7 +1,7 @@
 import React, { createContext } from "react";
 import useLocalStorage from "../customHooks/useLocalStorage";
-const todo = [];
-const completedTodo = [];
+const todo = [{id: 0, task: "Write Code"},{id: 1, task: "Cook Food"},{id: 2, task: "Buy Snacks"},{id: 3, task: "Sleep"},{id: 4, task: "WRead a Book"}];
+const completedTodo = [{id: 5, task: "Call a Friend"}, {id: 6, task: "Watch Movie"}];
 export const TodoContext = createContext();
 export const CompletedTodoContext = createContext();
 export const UpdateTodoContext = createContext();
